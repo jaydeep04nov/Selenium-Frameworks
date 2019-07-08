@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="13711" started-at="2019-06-29T14:55:28Z" finished-at="2019-06-29T14:55:42Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="13711" started-at="2019-06-29T14:55:28Z" finished-at="2019-06-29T14:55:42Z">
+      <class name="com.module.Launch">
+        <test-method status="PASS" signature="executeLaunch(java.lang.String, java.lang.String, int)[pri:0, instance:com.module.Launch@13fee20c]" name="executeLaunch" duration-ms="9077" started-at="2019-06-29T14:55:28Z" finished-at="2019-06-29T14:55:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.newtours.demoaut.com/mercurywelcome.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeLaunch -->
+      </class> <!-- com.module.Launch -->
+      <class name="com.module.Login">
+        <test-method status="PASS" signature="executeLoginwithValidds(java.lang.String, java.lang.String)[pri:0, instance:com.module.Login@4e04a765]" name="executeLoginwithValidds" duration-ms="4596" started-at="2019-06-29T14:55:37Z" finished-at="2019-06-29T14:55:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Suvidyap1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P@ssword1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeLoginwithValidds -->
+      </class> <!-- com.module.Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

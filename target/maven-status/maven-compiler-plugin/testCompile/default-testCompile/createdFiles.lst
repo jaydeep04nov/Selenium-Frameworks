@@ -1,0 +1,8 @@
+com\pages\RegisterPage.class
+com\pages\FlightfinderPage.class
+com\utility\LaunchApp.class
+com\pages\LoginPage.class
+com\utility\CloseBrowser.class
+com\module\Launch.class
+com\config\Config.class
+com\module\Login.class
